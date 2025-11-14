@@ -1,0 +1,27 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom'; 
+import RootLayout from './components/RootLayout';
+import Home from './pages/Home';
+import About from './pages/About';
+import ItemsListPage from './pages/ItemsListPage';
+import ItemDetailsPage from './pages/ItemDetailsPage';
+import LoginPage from './pages/LoginPage';
+
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<RootLayout />}>
+        
+        <Route index element={<Home />} /> 
+        <Route path="about" element={<About />} />
+        <Route path="items" element={<ItemsListPage />} />
+        <Route path="items/:id" element={<ItemDetailsPage />} /> 
+        <Route path="login" element={<LoginPage />} />
+        <Route path="*" element={<h1>404: Page Not Found</h1>} />
+      </Route>
+    </Routes>
+  );
+}
+
+export default App;
