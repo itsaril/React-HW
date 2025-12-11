@@ -76,6 +76,10 @@ Users can:
   <img src="../screenshots/search.png" width="750">
 </div>
 
+<div align="center">
+  <img src="../screenshots/pagination.png" width="750">
+</div>
+
 ---
 
 ## ❤️ Favorites System
