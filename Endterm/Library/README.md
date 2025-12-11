@@ -44,7 +44,7 @@ The project was developed as part of a React Endterm examination.
 - Protected routes  
 
 <div align="center">
-  <img src="./screenshots/signup.png" width="750">
+  <img src="../screenshots/signup.png" width="750">
 </div>
 
 ---
@@ -57,7 +57,7 @@ The project was developed as part of a React Endterm examination.
 - Upload & store **profile picture** in Firebase Storage  
 
 <div align="center">
-  <img src="./screenshots/profile.png" width="750">
+  <img src="../screenshots/profile.png" width="750">
 </div>
 
 ---
@@ -73,7 +73,7 @@ Users can:
 - View detailed information  
 
 <div align="center">
-  <img src="./screenshots/search.png" width="750">
+  <img src="../screenshots/search.png" width="750">
 </div>
 
 ---
@@ -91,7 +91,7 @@ Users can:
 
 ### 🖼️ Screenshot: Favorites Page
 <div align="center">
-  <img src="./screenshots/favorites.png" width="800">
+  <img src="../screenshots/favorites.png" width="800">
 </div>
 
 ---
